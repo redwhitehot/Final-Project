@@ -8,11 +8,7 @@ body {
 h1 {
     margin:0;
     font-family:'IBM Plex Mono'; 
-    font-size:100px; 
-}
-
-div {
-    border: 1px dotted white; 
+    font-size:100px;  
 }
 
 ul {
@@ -20,6 +16,7 @@ ul {
     margin:0;
     padding:0; 
     overflow:hidden;
+    font-family:'IBM Plex Mono'; 
     background-color: transparent;
     display:flex;
     justify-content:flex-end; 
@@ -28,6 +25,7 @@ ul {
 li a {
     display:block; 
     color:white; 
+    font-family:'IBM Plex Mono'; 
     text-align:center;
     font-size:25px; 
     padding:20px 25px; 
@@ -47,6 +45,8 @@ li a:hover {
     text-align: center;
     vertical-align: middle;
     font-size: 40px; 
+    font-family:'IBM Plex Mono'; 
+    color: rgb(209, 29, 6);;
     font-weight: 500;
     padding: 20px;
     margin: auto; 
@@ -54,33 +54,21 @@ li a:hover {
 
 .banner{
     text-align: left;
+    font-family:'IBM Plex Mono'; 
     vertical-align: middle;
-    line-height: 100px; 
+    line-height: 80px; 
     font-size: 30px;
-    color: rgb(196, 15, 15);
+    color: rgb(209, 29, 6);
     background-image: url('http://wallfon.com/walls/fantasy/soldier-post-apocalyptic-world.jpg');
-    background-size: cover; 
+    background-size:cover; 
 }
 
 .full-width {
     display: flex; 
-    width: 100%; 
+    align-content: center; 
+    width: 95%; 
+    font-family:'IBM Plex Mono'; 
     justify-content: space-around; 
     padding: 10px; 
     margin: 10px; 
-}
-
-.half-width {
-    display: flex; 
-    width: 50%; 
-    padding: 10px; 
-    font-size: 26px; 
-}
-
-.third-width {
-    display: flex; 
-    justify-content: center; 
-    width: 33.3%; 
-    padding: 10px; 
-    font-size: 25px;  
 }
